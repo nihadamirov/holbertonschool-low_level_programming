@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints a text accordig number 
- * Return: Always 0 (Succes)
- */
+* main - Prints a text accordig number
+* Return: Always 0 (Succes)
+*/
 int main(void)
 {
 	int n;
