@@ -33,16 +33,16 @@ void functions_nested_loops(int n)
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar((k / 10) + '0');
-					_putchar((k % 10) + '0');
+					_putchar((z / 10) + '0');
+					_putchar((z % 10) + '0');
 				}
 				else if (z >= 100)
 				{
 					_putchar(',');
 					_putchar(' ');
-					_putchar((k / 100) + '0');
-					_putchar(((k / 10) % 10) + '0');
-					_putchar((k % 10) + '0');
+					_putchar((z / 100) + '0');
+					_putchar(((z  / 10) % 10) + '0');
+					_putchar((z % 10) + '0');
 				}
 			}
 			_putchar('\n');
