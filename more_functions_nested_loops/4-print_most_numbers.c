@@ -2,7 +2,7 @@
 
 /**
  * main - check the code
- *
+ * Description: Prints the numbers excluding 2 and 4
  * Return: Always 0.
  */
 void print_most_numbers(void)
