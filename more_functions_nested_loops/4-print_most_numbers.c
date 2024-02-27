@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- * Description: Prints the numbers excluding 2 and 4
- * Return: Always 0.
+ * print_most_numbers - prints numbers except 2 and 
+ * Return: returns nothing
  */
 void print_most_numbers(void)
 {
