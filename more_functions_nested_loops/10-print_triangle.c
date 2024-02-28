@@ -1,33 +1,28 @@
-#include <stdio>
+#include "main.h"
 
 /**
- *  main - main block, solve fizz buzz from numbers 1 to 100
- * Description: Multiples of 3, print Fizz. Multiples of 5, print Buzz.
- * Multiples of both 3 and 5 should print FizzBuzz.
- * Return: 0
+ * print_triangle - prints a triangle
+ * @size:size parameter of triangle
+ * Return:returns nothing
  */
-int main(void)
+void print_triangle(int size)
 {
-	int i;
+	int i, j, k;
 
-	for (i = 1; i < 100; i++)
+	if (size <= 0)
 	{
-		if ((i % 3 == 0) &&  (i % 5 == 0))
-		{
-			printf("FizzBuzz\n");
-		}
-		else if (i % 3 == 0)
-		{
-			printf("Fizz\n");
-		}
-		else if (i % 5 == 0)
-		{
-			printf("Buzz\n");
-		}
-		else
-		{
-			printf("%d\n", i);
-		}
+		_putchar('\n');
+
+		return;
 	}
-	return (0);
+	for (i = 1; i <= size; i++)
+	{
+		for (j = size - i; j > 0; j--)
+			_putchar(' ');
+
+		for (k = 0; k < i; k++)
+			_putchar('#');
+
+		_putchar('\n');
+	}
 }
