@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -8,8 +9,17 @@
  */
 int main(void)
 {
-	srand(time(NULL));
-	printf("%d\n", rand());
+	char c;
+	int x;
+
+	srand(time(0));
+	while (x <= 2645)
+	{
+		c = rand() % 128;
+		x += c;
+		_putchar(c);
+	}
+	_putchar(2772 - x);
 
 	return (0);
 }
