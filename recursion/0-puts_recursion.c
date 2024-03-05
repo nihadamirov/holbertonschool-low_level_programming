@@ -1,19 +1,16 @@
 #include "main.h"
 #include <unistd.h>
-#include <stdio.h>
 
 /**
- * _puts_tecursion - function that prints a string
+ * _puts_recursion - prints a string followed by a new line
  * @s - input char
- * Return: Always 0 (Success)
+ * Return: returns void
  */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
-	{
-		printf('\n');
-	}
-	else 
+		_putchar('\n');
+	else
 	{
 		_putchar(s[0]);
 		_puts_recursion(s + 1);
