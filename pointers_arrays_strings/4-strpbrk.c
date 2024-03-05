@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdio.h>
 
 /**
  * _strpbrk - The _strpbrk() function locates the first
@@ -11,18 +13,21 @@
  * Return:Returns a pointer to the byte in s that matches
  * one of the bytes in accept, or NULL if no such byte is found
  */
-
 char *_strpbrk(char *s, char *accept)
 {
-	int i;
-
-	for (i = 0; accept[i]; i++)
+	char *p;
+	
+	while (*s != '\0')
 	{
-		if (accept[i] == *s)
+		for (p = accept; *p != '\0'; p++)
 		{
-			return (s);
+			if (*s == *p)
+			{
+				return (s);
+			}
 		}
 		s++;
 	}
-	return ('\n');
+	return (NULL);
 }
+
