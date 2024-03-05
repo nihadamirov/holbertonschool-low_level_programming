@@ -2,6 +2,7 @@
 #include <stddef.h>
 #include <stdio.h>
 
+
 /**
  * _strpbrk - The _strpbrk() function locates the first
  * occurrence in the string s of any of the bytes in
@@ -16,6 +17,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	char *p;
+	
 	while (*s != '\0')
 	{
 		for (p = accept; *p != '\0'; p++)
