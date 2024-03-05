@@ -22,7 +22,7 @@ char *_strstr(char *haystack, char *needle)
 				break;
 		}
 		if (*np == '\n')
-			return (startn)
+			return (startn);
 	}
 	return (NULL);
 }
