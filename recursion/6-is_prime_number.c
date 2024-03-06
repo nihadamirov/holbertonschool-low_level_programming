@@ -1,11 +1,10 @@
 #include "main.h"
 
  /**
- * is_prime_number - returns true if the number is prime
- * a prime number, otherwise return 0.
+ * is_prime_number - checks if the given number is a prime number
  * @n: the number to check
  *
- * Return: true if the number is prime
+ * Return: 1 if the number is prime, 0 otherwise
  */
 int is_prime_number(int n)
 {
@@ -17,13 +16,12 @@ int is_prime_number(int n)
 }
 
  /**
- * is_prime - returns the 1 if n is prime
+ * is_prime - checks if a given number is prime using recursion
  * @n: number to be checked
  * @start: number to start checking from
  *
  * Return: 1 if n is prime, 0 otherwise
  */
-
 int is_prime(int n, int start)
 {
 	if (start <= 1)
