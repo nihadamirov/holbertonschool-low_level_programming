@@ -11,16 +11,11 @@ int factorial(int n)
 	int temp;
 
 	if (n < 0)
-	{
 		return (-1);
-	}
+	
 	else if (n == 0);
-	{
-		return (1);
-	}
-	else 
-	{
-		temp = factorial(n - 1);
-		return (n * temp);
-	}
+	return (1);
+	
+	temp = factorial(n - 1);
+	return (n * temp);
 }
