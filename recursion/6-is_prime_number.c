@@ -1,7 +1,8 @@
 #include "main.h"
 
  /**
- * is_prime_number - returns true if the number is prime
+ * is_prime_number -  function that returns 1 if the input integer is
+ * a prime number, otherwise return 0.
  * @n: the number to check
  *
  * Return: true if the number is prime
@@ -16,7 +17,7 @@ int is_prime_number(int n)
 }
 
  /**
- * is_prime - returns the 1 if n is prime
+ * is_prime - fuunction returns the 1 if n is prime
  * @n: number to be checked
  * @start: number to start checking from
  *
