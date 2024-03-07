@@ -14,8 +14,8 @@ int i, j, num;
 
 if (argc <= 2)
 {
-    printf("Error\n");
-    return (1);
+printf("Error\n");
+return (1);
 }
 
 i = atoi(argv[1]);
