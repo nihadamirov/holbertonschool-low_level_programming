@@ -11,6 +11,10 @@
 */
 int main(int argc, char *argv[])
 {
+    int coins = 0;
+    int denominations[] = {25,10,5,2,1};
+    int i;
+    
     if (argc != 2)
     {
         printf("Error\n");
@@ -22,9 +26,6 @@ int main(int argc, char *argv[])
         printf("0\n");
         return (0);
     }
-    int coins = 0;
-    int denominations[] = {25,10,5,2,1};
-    int i;
 
     for (i = 0; i < 5; i++)
     {
