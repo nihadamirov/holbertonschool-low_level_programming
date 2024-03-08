@@ -23,7 +23,8 @@ int is_prime_number(int n)
  * @n: number to be checked
  * @start: number to start checking from
  *
- * Description: This function checks if a given number is prime using recursion.
+ * Description: This function checks if a given number is prime
+ * using recursion.
  * It starts checking from the given start number and continues
  * until it reaches 1.
  *
