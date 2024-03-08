@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 int coins = 0;
-int denominations[] = {25,10,5,2,1};
+int denominations[] = {25, 10, 5, 2, 1};
 int i, cents;
 
 if (argc != 2)
