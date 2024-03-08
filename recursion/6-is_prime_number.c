@@ -4,7 +4,7 @@
  * is_prime_number - checks if the given number is a prime number
  * @n: the number to check
  *
- * This function checks if a given number is a prime number.
+ * Description: This function checks if a given number is a prime number.
  * It uses the is_prime function to perform the check.
  *
  * Return: 1 if the number is prime, 0 otherwise
@@ -23,7 +23,7 @@ int is_prime_number(int n)
  * @n: number to be checked
  * @start: number to start checking from
  *
- * This function checks if a given number is prime using recursion.
+ * Description: This function checks if a given number is prime using recursion.
  * It starts checking from the given start number and continues
  * until it reaches 1.
  *
