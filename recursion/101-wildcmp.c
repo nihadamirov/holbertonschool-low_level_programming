@@ -11,7 +11,8 @@
 * @s2: The second string to compare. This string can contain
 * the special character '*'.
 *
-* Return: Returns 1 if the strings can be considered identical, otherwise returns 0.
+* Return: Returns 1 if the strings can be considered identical,
+* otherwise returns 0.
 */
 int wildcmp(char *s1, char *s2)
 {
