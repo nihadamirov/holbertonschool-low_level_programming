@@ -13,10 +13,3 @@ This repository contains a series of functions written in C. These functions dem
 7. `is_prime_number`: This function returns 1 if the input integer is a prime number, otherwise return 0.
 8. `is_palindrome`: This function returns 1 if a string is a palindrome and 0 if not.
 9. `wildcmp`: This function compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
-
-## Usage
-
-To use the code in this repository, first clone the repository:
-
-```bash
-git clone https://github.com/your_username/holbertonschool-low_level_programming.git
