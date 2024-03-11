@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * _strdup -  returns a pointer to a new string which is a duplicate of the string
+ * _strdup - returns a pointer to a newly allocated space in memory
  * @str: this is my input string
- * 
+ *
  * Return: pointer of an array of chars
  */
 char *_strdup(char *str)
