@@ -5,10 +5,10 @@
 
 /**
  * _malloc_checked - allocate memory
- * @b: unigned int
+ * @b: unsigned int
  * Return: pointer allocate memory
  */
-void *malloc_checked(unigned int b)
+void *malloc_checked(unsigned int b)
 {
 	int *ptr;
 
