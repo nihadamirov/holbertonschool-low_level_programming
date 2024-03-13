@@ -23,9 +23,11 @@ int *array_range(int min, int max)
 		return (NULL);
 
 	while (min <= max)
+	{
 		ptr[arr] = min;
-	min++;
-	arr++;
+		min++;
+		arr++;
+	}
 
 	return (ptr);
 }
