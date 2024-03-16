@@ -16,10 +16,10 @@ dog_t *p;
 int i, lname, lowner;
 
 p = malloc(sizeof(*p));
-if (p == NULL || !(name) || !(owner))
+if (p == NULL)
 {
-    free(p);
-    return (NULL);
+free(p);
+return (NULL);
 }
 for (lname = 0; name[lname]; lname++)
 ;
