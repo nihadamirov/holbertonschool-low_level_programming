@@ -24,12 +24,3 @@ else
 printf("Owner: %s\n", d->owner);
 }
 }
-
-dog_t *new_dog(char *name, float age, char *owner)
-{
-    return nullptr;
-}
-
-void free_dog(dog_t *d)
-{
-}
