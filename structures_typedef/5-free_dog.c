@@ -13,6 +13,6 @@ if (d)
 {
 free(d->name);
 free(d->owner);
-free(p);
+free(d);
 }
 }
